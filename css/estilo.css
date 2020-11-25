@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: #0a0a0a;
+    width: 100%;
+}
+
+nav ul {
+    float: left;
+    display: flex;
+    background-color: #0a0a0a;
+    width: 100%;
+    height: 4rem;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav h3 {
+    padding: 1rem 2rem;
+    float: left;
+    align-self: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 2rem;
+    line-height: 4rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #553F10;
+    text-decoration: none;
+    color: #FFF6C0;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333232;
+    border: 1px solid #333232;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 100%;
+    
+}
+
+nav ul li ul li a {
+    padding: 1rem 2rem;
+    line-height: unset;
+    white-space: nowrap;
+    background-color: #0a0a0a;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li ul li a:hover {
+    background-color: #553F10;
+    text-decoration: none;
+    color: #FFF6C0;
+}
+
+.centrar_login{
+	width: 40%;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.header{
+	background: white;
+	color: #0a0a0a;
+	padding: 30px;
+	text-align: center;
+	font-size: 30px;
+    font-family: serif;
+}
+
+.img_logo{
+	display: block;
+	margin: auto;
+	width: 500px;
+	height: 100px;
+}
+
+.footer{
+	background: #000;
+	color: #FFF6C0;
+	text-align:center;
+	font-size: 10px;
+	padding: 50px;
+}
+
+.cuerpo{
+	background: #eaeaea;
+	padding: 30px;
+	min-height: 430px;
+}
+
+.imagen_carro{
+	width: 50px;
+	height: 50px;
+	border-radius: 1000px;
+}
+
+.producto{
+	display: inline-block;
+	width: 32%;
+    height: 32%;
+	padding: 1px;
+	background: white;
+	color: #333;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    border: #0a0a0a;  
+}
+
+.producto:hover{
+	display: inline-block;
+	width: 32%;
+    height: 32%;
+	padding: 1px;
+	background: #FFF6C0;
+	color: #333;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    border: #553F10;  
+}
+
+.img_producto{
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+    cursor: pointer;
+}
+
+.desc_producto{
+	padding: 10px;
+	color: white;
+	background: #553F10;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+    cursor: pointer;
+}
+
+.desc_producto:hover {
+	padding: 10px;
+	color: #FFF6C0;
+	background: #553F10;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+    cursor: pointer;
+}
+
+.precio{
+	color: #26B91C;
+	margin-top: 20px;
+	text-align: right;
+    font-weight: bold;
+}
+
+.pull-right{
+    position: relative;
+    right: -170px;
+}
+
+.img_producto_compra{
+	width: 300px;
+	height: 400px;
+    cursor: pointer;
+    border: #553F10 10px groove;
+}
+
+.desc_producto_compra{
+	color: black;
+	text-align: right;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.precio_compra{
+	color: #26B91C;
+	text-align: right;
+    margin-left: auto;
+    font-size: 28px;
+}
+
+.formulario > td{
+    padding: 20px 0;
+    border-bottom: 1px solid #553F10;
+}
+
+.formulario input[type="radio"]{
+    display: none;
+}
+
+.formulario .radio label{
+    color: #0a0a0a;
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.formulario .radio label:hover{
+    background: rgba(51,51,51,0.1);
+}
+
+.formulario .radio label:before{
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background: none;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px;
+    top: 4px;
+}
+
+.formulario input[type="radio"]:checked + label{
+    padding: 5px 15px;
+    background: #553F10;
+    border-radius: 2px;
+    color: #0a0a0a;
+}
+
+.formulario input[type="radio"]:checked + label:before{
+    display: none;
+}
+
+.text_cafe{
+    color: #553F10;
+}
+
+.centrar_registro{
+	width: 40%;
+	text-align: center;
+}
+
+.carrito_titulo{
+    background: #553F10;
+    color: #FFF6C0;
+    padding: 10px;
+    border-radius: 4px 4px 0px 0px;
+    position: fixed;
+    width: 300px;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.carrito_lista{
+    background: #FFF6C0;
+    color: #0a0a0a;
+    padding: 10px;
+    width: 300px;
+    position: fixed;
+    height: 350px;
+    bottom: -350px;
+    right: 0px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    overflow-y: scroll;
+}
